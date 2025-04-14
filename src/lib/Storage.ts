@@ -1,3 +1,5 @@
+// TEST COMMENT
+
 export default {
   get: (key: string) => {
     const data = localStorage.getItem(`@${key}`);
